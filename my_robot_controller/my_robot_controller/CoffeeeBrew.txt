@@ -1,0 +1,1 @@
+j Home,j Above Dispenser,6,l pick pod,0,j Above Pod,j Above Drop,j Place Pod,6,0,j pre pre toppush,j PreTopPush,l PostTopPush,l postbottompush,l Lock Machine,j Home,j pre button,j ButtonPush,j Home

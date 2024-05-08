@@ -1,0 +1,15 @@
+# Define the command
+command = bytearray(b"\x09\x10\x03\xE8\x00\x03\x06\x09\x00\x00\xFF\xFF\xFF\x42\x29")
+
+# Define variables for the bytes to be replaced
+Force = 0xAB
+Speed = 0xCD
+Position = 0x80
+
+# Replace the 12th, 11th, and 10th bytes in the command with variables
+#command[9] = Force
+#command[10] = Speed
+command[11] = Position
+
+print(command)
+
